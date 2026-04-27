@@ -2,35 +2,67 @@
 
 Educational CAD reconstruction of an orthopaedic blade-plate geometry starting from a technical drawing.
 
+---
+
+## Final CAD Model
+
+### Isometric View
+
+![Isometric Render](Renders/render_iso.png)
+
+---
+
+### Top View
+
+![Top View](Renders/render_sup.png)
+
+---
+
 ## Project Objective
 
-The goal of this project was to reconstruct a surgical blade-plate component in SolidWorks starting from a provided technical drawing.
+The goal of this project was to reconstruct a surgical blade-plate component starting from a technical drawing and reproduce it through a clean SolidWorks workflow.
 
-The project focused on:
+Main objectives:
 
 - technical drawing interpretation
 - parametric CAD modeling
-- hole feature generation
 - blade geometry reconstruction
+- hole generation
 - technical documentation
+- CAD export preparation
 
-## Workflow
+---
 
-1. Analysis of the original drawing
-2. Base profile creation
-3. Solid extrusion
-4. Blade creation
-5. Hole generation
-6. Finishing features
-7. Technical drawing creation
-8. Export for portfolio documentation
+## Original Technical Drawing
 
-## Main Outputs
+The project started from a reference technical drawing used as geometric input.
 
-- SolidWorks part file
-- technical drawing
-- STEP/STL exports
-- rendered images
+![Technical Drawing](Drawings/technical_drawing.png)
+
+---
+
+## CAD Workflow
+
+1. Analysis of reference drawing  
+2. Base profile sketch  
+3. Base extrusion  
+4. Blade generation  
+5. Hole creation  
+6. Finishing features  
+7. Technical drawing generation  
+8. Export preparation  
+
+---
+
+## Final Outputs
+
+- SolidWorks part file (.SLDPRT)
+- Technical drawing (.PDF)
+- STEP export
+- STL export
+- Render images
+
+---
 
 ## Tools Used
 
@@ -38,12 +70,20 @@ The project focused on:
 - Technical Drawing
 - CAD Modeling
 
+---
+
 ## Repository Structure
 
-- CAD → native files and exports
-- Drawings → original and final drawings
-- Renders → visual outputs
+```bash
+CAD/
+Drawings/
+Renders/
+```
 
-## Notes
+---
 
-This is an educational reverse-engineering exercise and does not represent a certified medical device.
+## Project Note
+
+This project was developed as an educational CAD exercise focused on reverse engineering and biomedical device-related geometries.
+
+It does not represent a certified medical device.
