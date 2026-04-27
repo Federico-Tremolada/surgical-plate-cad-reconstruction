@@ -33,9 +33,7 @@ Main objectives:
 
 ---
 
-## Original Technical Drawing
-
-The project started from a reference technical drawing used as geometric input.
+## Technical Drawing
 
 ![Technical Drawing](Drawings/technical_drawing.png)
 
