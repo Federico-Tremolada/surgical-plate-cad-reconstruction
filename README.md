@@ -85,3 +85,10 @@ Renders/
 This project was developed as an educational CAD exercise focused on reverse engineering and biomedical device-related geometries.
 
 It does not represent a certified medical device.
+
+---
+
+# Author
+
+**Federico Tremolada**  
+Biomedical Engineer — Politecnico di Milano  
